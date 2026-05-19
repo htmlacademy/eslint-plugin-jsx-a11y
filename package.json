@@ -1,19 +1,24 @@
 {
-  "name": "eslint-plugin-jsx-a11y",
-  "version": "6.10.2",
-  "description": "Static AST checker for accessibility rules on JSX elements.",
+  "name": "@htmlacademy/eslint-plugin-jsx-a11y",
+  "version": "6.11.0",
+  "description": "Static AST checker for accessibility rules on JSX elements. HTML Academy fork of eslint-plugin-jsx-a11y with ESLint 10 support.",
   "keywords": [
     "eslint",
     "eslintplugin",
     "eslint-plugin",
     "a11y",
     "accessibility",
-    "jsx"
+    "jsx",
+    "htmlacademy",
+    "codeguide"
   ],
   "author": "Ethan Cohen",
+  "contributors": [
+    "HTML Academy <mail@htmlacademy.dev> (https://htmlacademy.ru)"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y"
+    "url": "https://github.com/htmlacademy/eslint-plugin-jsx-a11y"
   },
   "main": "lib/index.js",
   "scripts": {
@@ -73,7 +78,7 @@
     "to-ast": "^1.0.0"
   },
   "engines": {
-    "node": ">= 4"
+    "node": ">=24"
   },
   "license": "MIT",
   "dependencies": {
@@ -94,7 +99,7 @@
     "string.prototype.includes": "^2.0.1"
   },
   "peerDependencies": {
-    "eslint": "^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9"
+    "eslint": "^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9 || ^10"
   },
   "auto-changelog": {
     "output": "CHANGELOG.md",
@@ -106,6 +111,7 @@
     "startingVersion": "6.6.2"
   },
   "publishConfig": {
+    "access": "public",
     "ignore": [
       "!lib",
       ".github/workflows",

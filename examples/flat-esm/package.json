@@ -11,10 +11,10 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.9.1",
+    "@eslint/js": "^10.4.0",
     "cross-env": "^7.0.3",
-    "eslint": "^9.9.1",
-    "eslint-plugin-jsx-a11y": "file:../..",
-    "globals": "^15.6.0"
+    "eslint": "^10.4.0",
+    "@htmlacademy/eslint-plugin-jsx-a11y": "file:../..",
+    "globals": "^17.6.0"
   }
 }

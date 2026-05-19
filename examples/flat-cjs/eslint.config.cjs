@@ -1,6 +1,6 @@
 const globals = require('globals');
 const js = require('@eslint/js');
-const jsxA11y = require('eslint-plugin-jsx-a11y');
+const jsxA11y = require('@htmlacademy/eslint-plugin-jsx-a11y');
 
 module.exports = [
   js.configs.recommended,

@@ -22,9 +22,11 @@
 
 <a href='https://tidelift.com/subscription/pkg/npm-eslint-plugin-jsx-a11y?utm_source=npm-eslint-plugin-jsx-a11y&utm_medium=referral&utm_campaign=readme'>Get professional support for eslint-plugin-jsx-a11y on Tidelift</a>
 
-# eslint-plugin-jsx-a11y
+# @htmlacademy/eslint-plugin-jsx-a11y
 
 Static AST checker for accessibility rules on JSX elements.
+
+> **HTML Academy fork** of [`eslint-plugin-jsx-a11y`](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y) maintained for the [HTML Academy Codeguide](https://codeguide.academy) toolchain. Adds ESLint 10 support and tracks Node.js >=24. All rules, schemas, and documentation below mirror upstream — there are no functional changes. Use this fork only if you need to work with ESLint 10 today; otherwise, prefer upstream.
 
 #### _Read this in [other languages](https://github.com/ari-os310/eslint-plugin-jsx-a11y/blob/HEAD/translations/Translations.md)._
 

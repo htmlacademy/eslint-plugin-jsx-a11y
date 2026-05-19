@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v6.11.0](https://github.com/htmlacademy/eslint-plugin-jsx-a11y/compare/v6.10.2...v6.11.0) - 2026-05-19
+
+HTML Academy fork of `eslint-plugin-jsx-a11y@6.10.2`. No rule-level changes.
+
+### Changed
+
+- Renamed package to `@htmlacademy/eslint-plugin-jsx-a11y`.
+- `peerDependencies.eslint` now includes `^10` (full range: `^3 || … || ^10`). All rules are AST-only and pass on ESLint 10 without modification.
+- `engines.node` raised to `>=24` to match HTML Academy Codeguide toolchain.
+- `repository.url` points to the HTML Academy fork.
+
 ## [v6.10.2](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/compare/v6.10.1...v6.10.2) - 2024-10-25
 
 ### Fixed

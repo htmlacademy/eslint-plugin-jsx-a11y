@@ -1,6 +1,6 @@
 import globals from 'globals';
 import js from '@eslint/js';
-import jsxA11y from 'eslint-plugin-jsx-a11y';
+import jsxA11y from '@htmlacademy/eslint-plugin-jsx-a11y';
 
 export default [
   js.configs.recommended,
